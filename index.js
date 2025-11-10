@@ -71,7 +71,7 @@ app.view('ticket_modal_submit', async ({ ack, body, view, client }) => {
 
   // --- Create new Notion page ---
   await notion.pages.create({
-    parent: { database_id: process.env.NOTION_DB_ID },
+    parent: { data_source_id: process.env.NOTION_DB_ID },
     properties: {
       Name: {
         title: [{ text: { content: title } }],
