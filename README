@@ -1,0 +1,3 @@
+#This slackbot takes a user request using "\hubspot-ticket" and allows a user to create a new ticket on Notion under the "RevOps Task Management task class"
+#User can assign: Status, Assignee(s), Deadline, Team, Task Category, AI keywords, Priority, Task Description
+#Bot connected to Notion database ID writes a new page with given details
